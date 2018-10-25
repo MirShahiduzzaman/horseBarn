@@ -1,3 +1,14 @@
+public interface Horse
+{
+    /** @ return the horse's name */
+    String getName();
+
+    /** @return the horse's weight */
+    int getWeight();
+
+    String toString();
+}
+/**
 public class Horse
 {
     int weight;
@@ -19,12 +30,6 @@ public class Horse
         return(this.name);
     }
 
-    public interface Horse
-    {
-        /** @ return the horse's name */
-        String getName();
 
-        /** @return the horse's weight */
-        int getWeight();
-    }
 }
+*/
