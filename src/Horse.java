@@ -8,28 +8,3 @@ public interface Horse
 
     String toString();
 }
-/**
-public class Horse
-{
-    int weight;
-    String name;
-
-    public Horse(String name, int weight)
-    {
-        this.name = name;
-        this.weight = weight;
-    }
-
-    static String getName(String name)
-    {
-        return(this.name);
-    }
-
-    static int getWeight(int weight)
-    {
-        return(this.name);
-    }
-
-
-}
-*/

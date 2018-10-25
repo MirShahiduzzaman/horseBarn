@@ -2,6 +2,11 @@ public class HorseBarn
 {
     private Horse[] spaces;
 
+    public HorseBarn(Horse[] arr)
+    {
+        this.spaces = arr;
+    }
+
     public int findHorseSpace(String name)
     {
         for(int i = 0;i<spaces.length;i++)
